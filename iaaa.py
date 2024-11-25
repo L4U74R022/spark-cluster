@@ -1,14 +1,13 @@
 from sparkflow.graph_utils import build_graph
 from sparkflow.tensorflow_async import SparkAsyncDL
-
 import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
-
 from pyspark.ml.feature import VectorAssembler, OneHotEncoder
 from pyspark.ml.pipeline import Pipeline
 from pyspark.sql import SparkSession
 import numpy as np
 import pandas as pd
+
+tf.disable_v2_behavior()
 
 # Crear la SparkSession
 spark = SparkSession.builder \
