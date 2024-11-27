@@ -5,7 +5,6 @@ from pyspark.ml.classification import LogisticRegression
 from pyspark.sql.types import StructType, StructField, FloatType, IntegerType
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 import tensorflow_datasets as tfds
-import numpy as np
 
 # Inicializar SparkSession
 spark = SparkSession.builder \

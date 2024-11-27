@@ -5,7 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+# Ignore model
+modelito/
 # Distribution / packaging
 .Python
 build/
