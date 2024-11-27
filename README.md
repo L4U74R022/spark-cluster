@@ -9,3 +9,9 @@ Correr codigo de ejemplo:
         source /ENV/bin/activate
         sh run_sample.sh
     ```
+## Modelo IA sobre el cluster
+- Correr sobre el nodo master
+      ``` bash
+      source /ENV/bin/activate
+      sh run_one.py num6.py
+      ```
